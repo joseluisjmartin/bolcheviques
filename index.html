@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--testing front for the wellcoming page-->
+<!--style="display:none"-->
+<html lang="es">
+<head>
+  <title>Bolcheviques</title>
+  <!--charset-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!--this is for adapt the content to the scale of the screen, using bootstrap mobile first paradigm is implicit-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--favicon for the tab label-->
+  <link rel="icon" type="image/png" href="bolcheviques/img/Clover.png" />
+  <!--google fonts that we use-->
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo|Sigmar+One" rel="stylesheet">
+  <!--bootstrap css links-->
+  <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css" />
+  <!--optional bootstrap css bootstrap-theme
+  <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css" />
+  -->
+  <!--general library for jquery-->
+  <script type="text/javascript" src="jquery.js"></script>
+  <!--bootstrap jquery library-->
+  <script type="text/javascript" src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+  <!--our costumized css-->
+  <link rel="stylesheet" type="text/css" href="bolcheviques/css/bolcheviquesB.css" />
+</head>
+<body>
+    <nav class="principal container-fluid">
+      <ul class="row">
+        <li class="col-sm-2"><a href='index.php?pg=inicio'>INICIO</a></li>
+        <li class="col-sm-2"><a href='index.php?pg=noticias'>NOTICIAS</a></li>
+        <li class="col-sm-2"><a href='index.php?pg=llantos'>FOROS Y LLANTOS</a></li>
+        <li class="col-sm-2 dropdown row">
+          <span class="dropdown-toggle" data-toggle="dropdown">CLANES <span class="caret"></span></span>
+          <ul class="dropdown-menu">
+            <li class="col-xs-12"><a href='index.php?pg=clan&tag=clan/P2L9VVL'>BOLCHEVIQUES</a></li>
+            <li class="col-xs-12"><a href='index.php?pg=clan&tag=clan/2YYGQU98'>MENCHEVIQUES</a></li>
+          </ul>
+      </li>
+        <li class="col-sm-2"><a href='index.php?pg=competiciones'>COMPETICIONES</a></li>
+        <li class="col-sm-2 dropdown row">
+          <span class="dropdown-toggle" data-toggle="dropdown">CUENTAS <span class="caret"></span></span>
+          <ul class="dropdown-menu">
+          <li class="col-xs-12"><a href='index.php?pg=dictadores'><span class="glyphicon glyphicon-user"></span> PERFIL PERSONAL</a></li>
+          <li class="col-xs-12"><a href='index.php?pg=login'><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
+        </ul>
+      </li>
+      </ul>
+    </nav>
+ </body>
+</html>

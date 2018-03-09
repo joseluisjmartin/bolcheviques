@@ -1,0 +1,217 @@
+/***generales***/
+*{
+    padding:0.5%;
+    text-align:center;
+    font-family:'Boogaloo',arial,sans-serif;
+    box-sizing:border-box;
+}
+.anchomax{
+  width: 100%;
+}
+.lefted{
+  text-align: left;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color:#8888ff;
+}
+/*****cabecera******/
+header{
+  margin: 0 0 0.7em 0;
+  background: linear-gradient(#ffaa00, #ffdb80);
+  border-radius:1em;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+
+#logo{
+  margin: 0 1em 0 1em;
+  padding: 0;
+  height: 2em;
+  width: 1.5em;
+
+}
+
+#nombreclan{
+  padding: 0;
+  color: ffffff;
+  font-size: 200%;
+  font-family:'Sigmar One';
+  font-weight: lighter;
+  text-shadow:2px 2px #8888ff;
+}
+/*****imagen principal****/
+.banner{
+  display:none;
+  margin: 0 0 0.7em 0;
+  border-radius:1em;
+  height: 22em;
+  float: left;
+  width: 100%;
+}
+
+/**** menu principal ******/
+nav.principal{
+    margin: 0 0 0.7em 1%;
+    float:left;
+    padding:0;
+    width:98%;
+}
+
+nav.principal ul{
+    padding:0;
+    margin: 0;
+    width:100%;
+}
+
+nav.principal a{
+  padding: 0;
+  margin: 0;
+}
+
+nav.principal li{
+    padding: 1em;
+    margin: 0;
+    border-radius:5px;
+    box-shadow:0.5em 0.5em 0.5em #888888;
+    color:#ffffff;
+    display:inline-block;
+    font-family: 'Boogaloo';
+    font-size:90%;
+    text-decoration:none;
+    width:14%
+}
+
+
+nav.principal li:hover{
+    background: linear-gradient(#ffaa00, #ffdb80);
+    color:white;
+    text-shadow:2px 2px #8888ff;
+}
+
+/*****footer*****/
+footer{
+  padding: 0.7em;
+  margin: 0 0 1em 10%;;
+  background: linear-gradient(#ffdb80, #8888ff);
+  border-radius: 5px;
+  box-shadow:0.5em 0.5em 0.5em #888888;
+  float:left;
+  width: 80%;
+}
+
+/*****titulo de página***/
+.nombrePagina{
+  padding: 0.5em;
+  margin: 0 0 0.5em 10%;;
+  background: linear-gradient(#8888ff, #ffdb80);
+  border-radius: 5px;
+  box-shadow:0.5em 0.5em 0.5em #888888;
+  font-family:'Sigmar One';
+  font-size: 200%;
+  font-weight: lighter;
+  float:left;
+  width: 80%;
+}
+
+/*****contenido***/
+.contenido, .audio{
+  padding: 0.5em;
+  margin: 0 0 1em 10%;;
+  float:left;
+  font-size: 120%;
+  width: 80%;
+}
+
+.contenido{
+  background: #ffdb80;
+  border-radius: 5px;
+  box-shadow:0.5em 0.5em 0.5em #888888;
+}
+
+.menu{
+  padding: 0;
+  margin: -0.5em 2.5% 0.5em 2.5%;
+  background: #aaaaff;
+  width: 95%;
+}
+
+.llorado p, .llorado h3{
+  margin: 0;
+  padding:0;
+}
+.desc{
+  float: left;
+  width: 50
+}
+p.fecha{
+  font-size: 70%;
+  font-style: italic;
+}
+
+nav.rankings{
+  background: #e96;
+  border: solid 0.20em #446;
+  border-radius: 5px;
+  float:left;
+  text-decoration: none;
+  width: 20%;
+}
+
+nav.rankings li{
+  background: #fdb;
+  border-radius: 5px;
+  list-style-type: none;
+}
+section.ficha{
+  background: #e96;
+  border: solid 0.20em #446;
+  border-radius: 5px;
+  color:black;
+  float:left;
+  width: 80%;
+}
+
+section.ficha h4{
+  text-align: left;
+  margin: 0.2em 0 0 0;
+  padding 0;
+}
+/****tablas****/
+table{
+  background: #fdb;
+  border-radius: 5px;
+  float:left;
+  width:80%;
+}
+section.ficha table{
+  width:100%;
+}
+section.ficha td, section.ficha th{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+/**** formularios ***/
+form{
+  width: 67%;
+}
+form section{
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 50%;
+}
+form p{
+  text-align: right;
+  width: 100%;
+}
+input, textarea, select{
+  width: 50%;
+}
+
+label{
+  width: 50%;
+}

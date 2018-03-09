@@ -1,0 +1,68 @@
+/***generales***/
+*{
+    padding:0.5%;
+    text-align:center;
+    font-family:'Boogaloo',arial,sans-serif;
+    box-sizing:border-box;
+}
+
+body{
+  background-color:#8888ff;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a,a:hover,a:visited,a:link,a:active{
+    color: inherit;
+    text-decoration: none;
+}
+
+/**** menu principal ******/
+.principal{
+    margin: 0 0 0.7em 0;
+    padding:0;
+    color:white;
+}
+
+.principal ul{
+    padding:0;
+    margin: 0;
+}
+
+
+.principal li{
+    padding: 1em;
+    margin: 0;
+    border-radius:5px;
+    box-shadow:0.5em 0.5em 0.5em #888888;
+    color:#ffffff;
+    font-family: 'Boogaloo';
+    font-size:90%;
+}
+
+
+.principal li:hover{
+    background: linear-gradient(#ffaa00, #ffdb80);
+    text-shadow:2px 2px #8888ff;
+}
+
+.dropdown-menu{
+  background: inherit;
+}
+
+.dropdown-menu li, .dropdown-menu li:hover{
+  text-shadow: none;
+}
+
+.dropdown-menu a:hover, .dropdown-menu a{
+  background: none !important;
+  text-shadow: none;
+}
+
+.dropdown-menu a:hover{
+  color: inherit !important;
+  text-shadow:2px 2px #8888ff;
+
+}
